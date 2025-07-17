@@ -11,7 +11,8 @@
     "livescript": "^1.6.0",
     "nodemon": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
-    "stylus": "^0.54.7"
+    "stylus": "^0.54.7",
+    "surge": "^0.24.6"
   },
   "scripts": {
     "build:html": "pug src/index.pug && mv src/index.html docs/index.html",
