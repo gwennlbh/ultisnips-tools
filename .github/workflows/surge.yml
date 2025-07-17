@@ -1,0 +1,17 @@
+name: Deploy to surge
+
+on: push
+
+jobs:
+  surge:
+    name: Surge it upppp
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to ultisnips-tools.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'ultisnips-tools.surge.sh'
+          project: 'docs'
+          login: ${{ secrets.SURGE_EMAIL }}
+          token: ${{ secrets.SURGE_TOKEN }}
