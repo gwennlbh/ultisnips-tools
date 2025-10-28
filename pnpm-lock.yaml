@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       concurrently:
-        specifier: ^5.1.0
+        specifier: ^5.3.0
         version: 5.3.0
       livescript:
         specifier: ^1.6.0
