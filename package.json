@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "concurrently": "^5.1.0",
+    "concurrently": "^9.2.1",
     "livescript": "^1.6.0",
     "nodemon": "^3.1.10",
     "pug-cli": "^1.0.0-alpha6",
