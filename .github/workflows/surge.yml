@@ -1,6 +1,8 @@
 name: Deploy to surge
 
-on: push
+on:
+  push: 
+    branches: [main]
 
 jobs:
   surge:
@@ -15,3 +17,4 @@ jobs:
           project: 'docs'
           login: ${{ secrets.SURGE_EMAIL }}
           token: ${{ secrets.SURGE_TOKEN }}
+
