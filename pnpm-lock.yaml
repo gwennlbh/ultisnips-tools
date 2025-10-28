@@ -15,7 +15,7 @@ importers:
         specifier: ^1.6.0
         version: 1.6.0
       nodemon:
-        specifier: ^2.0.4
+        specifier: ^2.0.22
         version: 2.0.22
       pug-cli:
         specifier: ^1.0.0-alpha6
