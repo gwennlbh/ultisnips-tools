@@ -12,7 +12,7 @@
     "nodemon": "^3.1.11",
     "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.64.0",
-    "surge": "^0.24.6"
+    "surge": "^0.25.0"
   },
   "scripts": {
     "build:html": "pug src/index.pug && mv src/index.html docs/index.html",
