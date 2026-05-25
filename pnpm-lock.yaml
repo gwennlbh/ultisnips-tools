@@ -24,8 +24,8 @@ importers:
         specifier: ^0.64.0
         version: 0.64.0
       surge:
-        specifier: ^0.27.3
-        version: 0.27.3
+        specifier: ^0.27.4
+        version: 0.27.4
 
 packages:
 
@@ -745,8 +745,8 @@ packages:
   surge-stream@0.10.1:
     resolution: {integrity: sha512-ght8KetFbrDLcG0YJz+lUenuA/3svfN9VrlmJGdtGXlmR+ZCzjtKdOyu2TLDbbbCGujFS4vB4/Rj/ZPNyD/+Fw==}
 
-  surge@0.27.3:
-    resolution: {integrity: sha512-3NQ5XCSeeG8fEnICnUnAEnZW7NbzHu6/NakCEabTixidA/bym0bx+gFZv1Dz479iqlR/4gJYYrwg/84Ad7BpHw==}
+  surge@0.27.4:
+    resolution: {integrity: sha512-N+vH/4y5RdRHWbHJZVc+u06is1p3sJUpkfTs1RH3LZOI97MeBCrz5mDa1P9KX5HWBQyPp7B5zPb/Wc2dRhREIw==}
     hasBin: true
 
   tar@7.5.9:
@@ -1579,7 +1579,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  surge@0.27.3:
+  surge@0.27.4:
     dependencies:
       axios: 1.13.5
       babar: 0.2.3
