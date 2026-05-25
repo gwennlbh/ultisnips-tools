@@ -9,9 +9,9 @@ jobs:
     name: Surge it upppp
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
       - name: Deploy to ultisnips-tools.surge.sh
-        uses: dswistowski/surge-sh-action@v1
+        uses: dswistowski/surge-sh-action@a261b926476d94cc718b0855214344a68ae98c9f # v1
         with:
           domain: 'ultisnips-tools.surge.sh'
           project: 'docs'
